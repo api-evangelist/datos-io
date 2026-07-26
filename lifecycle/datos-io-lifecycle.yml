@@ -1,0 +1,109 @@
+generated: '2026-07-20'
+method: searched
+source: https://web.archive.org/web/20180809023403/http://datos.io/
+
+# Company-level lifecycle. Datos IO is no longer an operating, independent company,
+# so this artifact records corporate + domain lifecycle rather than an API version
+# lifecycle. There is no OpenAPI, developer portal, or live API surface to derive from.
+
+status: acquired
+operating: false
+
+company:
+  name: Datos IO, Inc.
+  product: RecoverX
+  category: cloud-native database backup, recovery and data mobility
+  backed_by:
+  - lightspeed-venture-partners
+
+acquisition:
+  acquirer: Rubrik
+  year: 2018
+  # Narrowed by Wayback Machine branding change on the datos.io homepage:
+  # 2018-01-10 snapshot carries no Rubrik branding; 2018-03-01 snapshot is
+  # branded "Rubrik Datos IO" and the footer reads "© 2018 Rubrik Datos IO".
+  evidence_window:
+    not_branded_as_of: '2018-01-10'
+    branded_as_of: '2018-03-01'
+  evidence:
+  - source: https://web.archive.org/web/20180110143434/http://datos.io/
+    note: homepage still independently branded "Datos IO"
+  - source: https://web.archive.org/web/20180301000000*/http://datos.io/
+    note: homepage branded "Rubrik Datos IO"
+  - source: https://web.archive.org/web/20180809023403/http://datos.io/
+    note: footer "© 2018 Rubrik Datos IO - All Rights Reserved."
+  brand_retired: true
+
+domain:
+  domain: datos.io
+  # Probed 2026-07-20.
+  control: lapsed
+  status: parked-for-sale
+  nameservers:
+  - ns1.afternic.com
+  - ns2.afternic.com
+  https: true
+  redirects_to: https://forsale.godaddy.com/forsale/datos.io
+  mail: null            # null MX record ("0 .") — domain accepts no mail
+  spf: 'v=spf1 -all'    # explicit no-send policy, typical of parked domains
+  caa: []
+  hsts: false
+  wildcard_soft_200: true
+  wildcard_note: >-
+    Every probed path on datos.io returns HTTP 200 with content-type text/html
+    serving the parking lander (a meta/JS redirect to /lander), including
+    /.well-known/security.txt, /.well-known/openid-configuration,
+    /.well-known/oauth-authorization-server, /.well-known/api-catalog,
+    /.well-known/ai-plugin.json, /llms.txt and /openapi.json. These are NOT real
+    endpoints. No well-known/ or security/ artifact was written for this domain,
+    because a parking-page TLS/DNS posture describes the domain broker and not
+    Datos IO, and recording it would be misleading.
+  last_live_snapshot: '2018-08-09'
+  first_404_snapshot: '2020-01-09'
+
+github:
+  org: https://github.com/datosio
+  status: live
+  public_repos:
+  - name: geppetto
+    language: Python
+    url: https://github.com/datosio/geppetto
+  - name: easy_setup_cassandra
+    language: Python
+    url: https://github.com/datosio/easy_setup_cassandra
+  - name: easy_setup_keyless_ssh
+    language: Python
+    url: https://github.com/datosio/easy_setup_keyless_ssh
+  note: >-
+    Internal/ops tooling repositories, not client SDKs. No packages were published
+    to npm, PyPI, Maven Central, NuGet, RubyGems, Packagist or crates.io under a
+    Datos IO namespace, so no packages/ artifact was written.
+
+status_page: null
+sla: null
+deprecation: null
+versioning: null
+
+artifacts_not_applicable:
+- openapi
+- asyncapi
+- packages
+- mcp
+- skills
+- overlays
+- grpc
+- conformance
+- errors
+- scopes
+- authentication
+- sandbox
+- conventions
+- changelog
+- cli
+- components
+- data-model
+- well-known
+- security
+reason: >-
+  Company acquired in 2018 and wound down as a brand; no live website, developer
+  portal, documentation, or API surface exists to search, generate, or derive from.

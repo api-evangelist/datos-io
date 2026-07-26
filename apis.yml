@@ -1,8 +1,27 @@
 aid: datos-io
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datos-io.png
 name: Datos Io
-description: Datos Io is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Datos IO was a Silicon Valley data-management startup, backed by Lightspeed Venture Partners,
+  that built RecoverX — an "application-centric" backup, recovery and data-mobility platform for cloud-native
+  and distributed databases. RecoverX targeted NoSQL and cloud data stores including Apache Cassandra,
+  DataStax, MongoDB, Couchbase and Amazon DynamoDB, alongside relational sources such as Microsoft SQL
+  Server, and used parallel data streaming, semantic deduplication and a distributed metadata catalog to
+  back up in native formats and recover across private, hybrid and public cloud. Datos IO was acquired
+  by Rubrik in 2018 and operated for a period as "Rubrik Datos IO" before the brand was retired. The company
+  has no independent presence today: the datos.io domain has lapsed and is listed for sale through a domain
+  broker, and no live developer portal, documentation or API surface remains. This profile is retained
+  as an archival lineage record within the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/datos-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,37 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: rubrik
+x-acquired-year: 2018
+x-operating: false
+x-domain-status: parked-for-sale
+x-api-surface: none
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Management
+- Backup and Recovery
+- Data Protection
+- Cloud Databases
+- NoSQL
+- Enterprise Storage
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/datosio
+- type: Lifecycle
+  url: lifecycle/datos-io-lifecycle.yml
+- type: LLMsTxt
+  url: llms/datos-io-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
