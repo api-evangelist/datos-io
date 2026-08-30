@@ -65,6 +65,11 @@ tags:
 - Acquired
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/rubrik/
+  name: Rubrik
+  x-relationship: acquired
+  x-evidence: "Datos IO was acquired by Rubrik in 2018 and operated for a period as 'Rubrik Datos IO' before the brand was retired."
 - type: GitHubOrganization
   url: https://github.com/datosio
 - type: Lifecycle
