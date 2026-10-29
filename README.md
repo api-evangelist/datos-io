@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Datos Io is a company surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: lightspeed-venture-partners
+Datos IO was a Silicon Valley data-management startup, backed by Lightspeed Venture Partners, that built RecoverX — an "application-centric" backup, recovery and data-mobility platform for cloud-native and distributed databases. RecoverX targeted NoSQL and cloud data stores including Apache Cassandra, DataStax, MongoDB, Couchbase and Amazon DynamoDB, alongside relational sources such as Microsoft SQL Server, and used parallel data streaming, semantic deduplication and a distributed metadata catalog to back up in native formats and recover across private, hybrid and public cloud. Datos IO was acquired by Rubrik in 2018 and operated for a period as "Rubrik Datos IO" before the brand was retired. The company has no independent presence today: the datos.io domain has lapsed and is listed for sale through a domain broker, and no live developer portal, documentation or API surface remains. This profile is retained as an archival lineage record within the API Evangelist network.
+
+**Areas:** Company · Data Management · Backup and Recovery · Data Protection · Cloud Databases · NoSQL · Enterprise Storage · Acquired
+
+## Datos Io on APIs.io (historical record)
+
+Everything profiled for Datos Io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/datos-io/](https://apis.io/providers/datos-io/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/datosio)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Datos Io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/datos-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
